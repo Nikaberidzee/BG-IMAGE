@@ -22,14 +22,13 @@
 .bg-image{
 	background-image: url("../images/bg-image.jpg");
 	height: 650px;
-	max-width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 74px;
+	margin: 0 auto 74px;
 }
 .bg-image > h1{
 	font-size: 78px;
@@ -44,9 +43,10 @@
 
 /*section 2 start*/
 .section-2{
-	padding-left: 94px;
+	width: 1170px;
+	padding: 0 auto;
 	display: flex;
-	margin-bottom: 93px;
+	margin: 0 auto 93px;
 }
 .left-block{
 	display: flex;
